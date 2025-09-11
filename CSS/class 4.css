@@ -1,0 +1,29 @@
+#top{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(216, 130, 24);
+    transition: 2s;
+
+}
+
+#opacity{
+    height: 200px;
+    width: 300px;
+    background-color: salmon;
+}
+
+div:hover{
+    background-color: rgb(216, 130, 24);
+    opacity: 0.5;
+}
+
+#lets{
+    background-color: rgb(216, 130, 24);
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgb(17, 14, 14);
+    margin: 10px auto;
+    transition:5s;
+
+}
