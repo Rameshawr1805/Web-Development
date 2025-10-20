@@ -1,6 +1,6 @@
 const figlet = require('figlet');
 
-figlet("to all !!", function (err, data) {
+figlet("TO ALL", function (err, data) {
   if (err) {
     console.log("Something went wrong...");
     console.dir(err);
