@@ -10,29 +10,29 @@ app.listen(port, () =>{ //listen is a websever that listen on port 3000
 });
 
 
-/* Sending and Response 
+/* Sending and Response*/ 
 app.use((req, res) => {
     console.log('Request received');
     res.send({
         name: "apple",
         colour: "red"   
    });
-}); */ 
+}); 
 
-/*Routing in Express 
+/*Routing in Express*/
 app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 app.get('/hey', (req, res) => {
     res.send('hey its me ');
-});*/
+});
 
 
-/*Path parameters 
+/*Path parameters*/ 
 app.get('/:username', (req, res) => {
     console.log(req.params);
     res.send("Hello");
-}); */
+});
 
 
 /* Qurey String */
